@@ -1,1 +1,76 @@
-# Portofolio
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Portofolio<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Halo, Saya <span class="highlight">Nama Anda</span></h1>
+            <p>Developer & Gamer yang suka membangun hal-hal keren.</p>
+            <a href="#projects" class="btn">Lihat Projek</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>Tentang Saya</h2>
+        <div class="about-container">
+            <div class="about-text">
+                <p>Tulis deskripsi singkat tentang diri kamu di sini. Apa keahlianmu, teknologi apa yang kamu sukai (misalnya Python, JavaScript, dll), atau apa yang sedang kamu pelajari saat ini.</p>
+                <div class="skills">
+                    <span class="skill-badge">HTML</span>
+                    <span class="skill-badge">CSS</span>
+                    <span class="skill-badge">JavaScript</span>
+                    <span class="skill-badge">Python</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projek Saya</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Nama Projek 1</h3>
+                <p>Deskripsi singkat tentang projek pertama kamu, teknologi yang digunakan, dan tujuannya.</p>
+                <a href="#" class="project-link"><i class="fab fa-github"></i> View Code</a>
+            </div>
+            <div class="project-card">
+                <h3>Nama Projek 2</h3>
+                <p>Deskripsi singkat tentang projek kedua kamu. Bisa berupa aplikasi, game script, atau automasi.</p>
+                <a href="#" class="project-link"><i class="fab fa-github"></i> View Code</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Hubungi Saya</h2>
+        <p>Tertarik untuk bekerja sama atau sekadar menyapa?</p>
+        <div class="social-links">
+            <a href="https://github.com/username-kamu" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="mailto:emailmu@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Nama Anda. Dijahit dengan <i class="fas fa-heart"></i></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
